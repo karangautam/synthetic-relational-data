@@ -1,0 +1,38 @@
+{ "database": 
+    [{"fields": [
+      { "field-name": "first_name",
+        "field-type": "First-Name"
+      },
+      { "field-name": "last_name",
+        "field-type": "Last-Name"
+      },
+	  { "field-name": "email",
+        "field-type": "Email"
+      },
+	  { "field-name": "gender",
+        "field-type": "Gender"
+      },
+	  { "field-name": "dob",
+        "field-type": "Date-Of-Birth"
+      }
+    ],
+    "table": {
+      "name": "Customer",
+      "location": "Customer.csv"
+    }
+  },
+  {"fields": [
+      { "field-name": "first_name",
+        "field-type": "First-Name"
+      },
+      { "field-name": "last_name",
+        "field-type": "Last-Name"
+      }
+    ],
+    "table": {
+      "name": "amendedCustomer1",
+      "location": "amendedCustomer1.csv"
+    }
+  }],
+  "region" : "no_NO"
+} 
